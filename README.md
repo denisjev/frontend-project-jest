@@ -5,7 +5,7 @@ Esta es la solución del primer ejercicio de la prueba técnica
 ## Paquetes instalados
 
 ```
-npm install --save-dev jest babel-jest @babel/preset-env @babel/preset-react @babel/preset-typescript react-test-renderer
+npm install --save-dev jest babel-jest @babel/preset-env @babel/preset-react @babel/preset-typescript react-test-renderer @testing-library/react @testing-library/jest-dom jest-environment-jsdom
 ```
 
 ## Test a realizar
