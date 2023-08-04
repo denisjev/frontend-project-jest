@@ -16,12 +16,13 @@ describe('UserItem component test', () => {
                     <UserItem user={userData} />
                 </tbody>
             </table>,
-
         );
     })
 
     it('render data from props', () => {
-        //console.log(component)
         expect(component.container).toHaveTextContent('Mrs Sanjana Sheikh')
     })
+
+
+
 })

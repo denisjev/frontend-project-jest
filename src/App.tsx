@@ -1,5 +1,5 @@
 import './App.css'
-import UserTable from './components/UserTable'
+import UserTable from './components/UserTable/UserTable'
 import { User } from "./types/UserType"
 import { useState, useEffect } from 'react'
 

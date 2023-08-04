@@ -1,6 +1,6 @@
-# Ejercicio 1 (React + TypeScript + Vite)
+# Ejercicio 2 (Test unitarios con Jest)
 
-Esta es la solución del primer ejercicio de la prueba técnica
+Esta es la solución del segundo ejercicio de la prueba técnica en el cual se realizaron pruebas unitarias con Jest
 
 ## Paquetes instalados
 
@@ -10,19 +10,20 @@ npm install --save-dev jest babel-jest @babel/preset-env @babel/preset-react @ba
 
 ## Test a realizar
 
-1. Probar que los datos cargados cumplen con el tipo de dato
-2. Probar que el componente UserItem se renderiza correctamente sin importar los datos haciendo un Snapshot Testing
-3. Probar que el componete tabla se genera correctamete
-4. Probar que los colores de las filas de tabla cambian al probar el botón
-5. Probar que un dato es borrado
+1. Probar que el componente UserItem se renderiza correctamente.
+2. Probar que el componete UserTable se renderiza correctamete.
+3. Probar que en el componente UserTable las filas se colorean al dar clic en el botón colorear.
 
-## Ejecución de la aplicación
+## Ejecución de los test
 
-Para probar la aplicación se deberán ejecutar los siguientes comandos desde la terminal, hubicados en la carpeta del proyecto.
+Para probar los test se deberá ejecutar el siguiente comando desde la terminal, hubicados en la carpeta del proyecto.
 
 ```
-npm install
-npm run dev
+npm run test
 ```
 
-Luego acceder desde el navegador a la URL que muestra la salida del comando anterior.
+Así mismo, si se desea saber que tanto han cubierto los test se puede ejecutar el siguiente comando.
+
+```
+npm run test -- --coverage
+```

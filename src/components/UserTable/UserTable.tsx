@@ -1,7 +1,7 @@
 import { useState, useRef } from "react"
-import { User, UserTableProps } from "../types/UserType"
-import UserItem from "./UserItem"
-import '../css/UserTableStyles.css'
+import { User, UserTableProps } from "../../types/UserType"
+import UserItem from "../UserItem/UserItem"
+import '../../css/UserTableStyles.css'
 
 export default function UserTable({ users }: UserTableProps) {
         
