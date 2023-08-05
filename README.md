@@ -14,11 +14,14 @@ npm install --save-dev jest babel-jest @babel/preset-env @babel/preset-react @ba
 2. Probar que el componete UserTable se renderiza correctamete.
 3. Probar que en el componente UserTable las filas se colorean al dar clic en el botón colorear.
 
+Los archivos de los test, se encuentran creados detro de la carpeta de cada uno de los compoentes.
+
 ## Ejecución de los test
 
-Para probar los test se deberá ejecutar el siguiente comando desde la terminal, hubicados en la carpeta del proyecto.
+Para probar los test se deberán ejecutar los siguientes comando desde la terminal, hubicados en la carpeta del proyecto.
 
 ```
+npm install
 npm run test
 ```
 
