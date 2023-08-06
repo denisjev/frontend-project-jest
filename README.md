@@ -30,3 +30,5 @@ Así mismo, si se desea saber que tanto han cubierto los test se puede ejecutar 
 ```
 npm run test -- --coverage
 ```
+
+Nota: La URL a la cual la API se conecta se encuetra en el archivo src/app.config.ts
